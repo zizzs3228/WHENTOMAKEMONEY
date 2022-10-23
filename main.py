@@ -2,9 +2,9 @@ from operator import length_hint
 from turtle import color
 from PIL import Image, ImageDraw, ImageOps, ImageFont 
 import webbrowser
-yearA = 1965
-yearB = 1962
-yearC = 1958
+yearA = 1803
+yearB = 1800
+yearC = 1796
 yearsA = []
 yearsB = []
 yearsC = []
@@ -104,7 +104,7 @@ for i in range(6):
 
 font = ImageFont.truetype('ARIAL.TTF', 25)
 draw.text((30, 980), text="C - Years of Hard Times, Low Prices, and a good time to buy Cryptos and Stocks", font = font, align ="centre")
-draw.text((30, 500), text="B - Years of Good Times, How Prices, and a good time to sell Cryptos and Stocks", font = font, align ="centre")
+draw.text((30, 500), text="B - Years of Good Times, High Prices, and a good time to sell Cryptos and Stocks", font = font, align ="centre")
 draw.text((30, 200), text="A - Years in which panics have occurred and will occur again", font = font, align ="centre")
 draw.text((30, 50), text="Made by zizzs for Sindicate", font = font, align ="centre")
 draw.text((30, 100), text="With George Tritch's research", font = font, align ="centre")
